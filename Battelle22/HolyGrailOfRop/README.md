@@ -14,9 +14,9 @@ and exploit them.
 
 The binary is sent using the following format
 
-**************<newline>
-<ELF data here>
-**************<newline>
+**************
+ELF data here
+**************
 
 which means we can extract the elf and save it in the file system
 with the following method
