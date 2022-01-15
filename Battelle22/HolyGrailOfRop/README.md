@@ -14,9 +14,11 @@ and exploit them.
 
 The binary is sent using the following format
 
-**************
+;;;;;;;;;;;;;;;;;;;
 ELF data here
-**************
+;;;;;;;;;;;;;;;;;;;
+
+Where ';' is replaced with '*' (but I suck at Markdown).
 
 which means we can extract the elf and save it in the file system
 with the following method
